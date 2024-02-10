@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <h1>formulariosssss</h1>
+    </header>
+
+<main>
+    <form action=" ./mensaje.html">
+        <div>
+            <label for="inputText"> Nombre</label>
+            <input minlength="2" maxlength="5"  id="inputText" type="text" placeholder="INGRESE SU Nombre" />
+        <!-- placeholder --para dalre nombre de sombra dentor dentro del digitador
+        minlength-- para darle el limite de tras q pueda digitar 
+    maxlength--para darle limmite maximo de letras-->
+        
+
+        </div>
+        <div>
+            <label for="inputLastname">Apellido</label>
+            <input id="inputLastname" type="text">
+        </div>
+
+        <div>
+            <label for="">contraseña</label>
+            <input type="password">
+        </div>
+        <div>
+            <label for="">telefono</label>
+            <input min="10" max="20" type="number">
+        </div>
+
+        <div>
+            <label for="">email</label>
+            <input type="email">
+        </div>
+
+        <div>
+            <label for="inputFile">Adjuntar CV</label>
+            <input id="inputFile" type="file">
+            <!--  <input id="inputFile" type="file" disabled/> para desabilitar ese boton>-->
+        </div>
+
+        <div>
+            <!-- button-->
+            <button type="submit">Enviar</button>
+            <!--  input-->
+            <input type="submit"  value="enviar"/>
+        </div>
+       
+    </form>
+</main>
+</body>
+</html>
